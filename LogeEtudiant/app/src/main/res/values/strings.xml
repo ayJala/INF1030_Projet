@@ -25,5 +25,6 @@
     <string name="ajoutLogement">Inscription de logement</string>
     <string name="consigneAjoutLogement">Veuillez inscrire les informations sur le logement</string>
     <string name="title_activity_ajout_logement">Inscription logement</string>
+    <string name="confirmationEnregistrer">Les informations sont enregistrée</string>
 
 </resources>
