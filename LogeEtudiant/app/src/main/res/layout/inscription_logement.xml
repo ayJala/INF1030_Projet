@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
         <TextView
-            android:text="Type:"
+            android:text="@string/type"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
         <TextView
-            android:text="Adresse:"
+            android:text="@string/adresse"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
@@ -41,8 +41,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.8"
-            android:ems="12" />
-        android:id="@+id/txtAdresse" />
+            android:ems="12"
+            android:id="@+id/txtAdresse"
+        />
     </LinearLayout>
 
     <LinearLayout
@@ -50,7 +51,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
         <TextView
-            android:text="Ville:"
+            android:text="@string/ville"
             android:id="@+id/labelVille"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -70,7 +71,7 @@
         android:orientation="horizontal" >
 
         <TextView
-            android:text="Prix:"
+            android:text="@string/prix"
             android:id="@+id/labelPrix"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -83,7 +84,7 @@
             android:layout_weight="0.6"
             android:ems="12" />
         <TextView
-            android:text="par mois"
+            android:text="@string/parMois"
             android:id="@+id/labelBasePrix"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -96,7 +97,7 @@
         android:orientation="horizontal" >
 
         <TextView
-            android:text="Descrip:"
+            android:text="@string/descrip"
             android:id="@+id/labelDescription"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -116,21 +117,21 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
         <CheckBox
-            android:text="Meublé"
+            android:text="@string/meuble"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/checkBoxMeuble"
             android:layout_weight="0.35"/>
 
         <CheckBox
-            android:text="Stationnement"
+            android:text="@string/stationnement"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/checkBoxStationnement"
             android:layout_weight="0.3"/>
 
         <CheckBox
-            android:text="Animaux"
+            android:text="@string/animaux"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/checkBoxAnimaux"
@@ -142,22 +143,22 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
         <CheckBox
-            android:text="Fumeur"
+            android:text="@string/fumeur"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/checkBoxFumeur"
             android:layout_weight="0.35"/>
         <CheckBox
-            android:text="Électricité"
+            android:text="@string/electricite"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/checkBoxElectricite"
             android:layout_weight="0.3"/>
         <CheckBox
-            android:text="Chauffé"
+            android:text="@string/chauffe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/checkBoxWifi"
+            android:id="@+id/checkBoxChauffe"
             android:layout_weight="0.35"/>
     </LinearLayout>
 
@@ -174,13 +175,13 @@
                 app:srcCompat="@drawable/photo"
                 android:layout_weight="0.25"
                 android:layout_width="90dp"
-                android:layout_height="90dp"
+                android:layout_height="0dp"
                 android:adjustViewBounds="true"
                 android:padding="5dp"
                 android:id="@+id/imageView1" />
 
             <TextView
-                android:text="Extérieur"
+                android:text="@string/extérieur"
                 android:id="@+id/labelPhoto1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -196,12 +197,12 @@
                 app:srcCompat="@drawable/photo"
                 android:layout_weight="0.25"
                 android:layout_width="90dp"
-                android:layout_height="90dp"
+                android:layout_height="0dp"
                 android:adjustViewBounds="true"
                 android:padding="5dp"
                 android:id="@+id/imageView2" />
             <TextView
-                android:text="Salon"
+                android:text="@string/salon"
                 android:id="@+id/labelPhoto2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -218,12 +219,12 @@
                 app:srcCompat="@drawable/photo"
                 android:layout_weight="0.25"
                 android:layout_width="90dp"
-                android:layout_height="90dp"
+                android:layout_height="0dp"
                 android:adjustViewBounds="true"
                 android:padding="5dp"
                 android:id="@+id/imageView3" />
             <TextView
-                android:text="Cuisine"
+                android:text="@string/cuisine"
                 android:id="@+id/labelPhoto3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -240,12 +241,12 @@
                 app:srcCompat="@drawable/photo"
                 android:layout_weight="0.25"
                 android:layout_width="90dp"
-                android:layout_height="90dp"
+                android:layout_height="0dp"
                 android:adjustViewBounds="true"
                 android:padding="5dp"
                 android:id="@+id/imageView4" />
             <TextView
-                android:text="Chambre"
+                android:text="@string/chambre"
                 android:id="@+id/labelPhoto4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -259,7 +260,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
         <TextView
-            android:text="Date disponible:"
+            android:text="@string/dateDisponible"
             android:id="@+id/labelDateDispo"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
@@ -294,7 +295,7 @@
                 />
 
             <TextView
-                android:text="Localisation"
+                android:text="@string/localisation"
                 android:id="@+id/labelLocalisation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -304,7 +305,7 @@
 
 
         <CheckBox
-            android:text="Publier"
+            android:text=""
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.35"
@@ -320,7 +321,7 @@
 
 
         <Button
-            android:text="Effacer"
+            android:text="@string/effacer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
@@ -328,7 +329,7 @@
             />
 
         <Button
-            android:text="Enregistrer"
+            android:text="@string/enregistrer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"

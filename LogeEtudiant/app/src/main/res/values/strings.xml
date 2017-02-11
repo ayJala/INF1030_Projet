@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">LogeEtudiant</string>
+    <string name="app_name">LogeÉtudiant</string>
+    <string name="type">Type:</string>
+    <string name="adresse">Adresse:</string>
+    <string name="ville">Ville:</string>
+    <string name="prix">Prix:</string>
+    <string name="parMois">par mois</string>
+    <string name="descrip">Descrip:</string>
+    <string name="meuble">Meublé</string>
+    <string name="stationnement">Stationnement</string>
+    <string name="animaux">Animaux</string>
+    <string name="fumeur">Fumeur</string>
+    <string name="electricite">Électricité</string>
+    <string name="chauffe">Chauffé</string>
+    <string name="extérieur">Extérieur</string>
+    <string name="salon">Salon</string>
+    <string name="cuisine">Cuisine</string>
+    <string name="chambre">Chambre</string>
+    <string name="dateDisponible">Date disponible:</string>
+    <string name="localisation">Localisation</string>
+    <string name="publier">Publier</string>
+    <string name="effacer">Effacer</string>
+    <string name="enregistrer">Enregistrer</string>
 </resources>
