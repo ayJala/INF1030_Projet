@@ -27,15 +27,27 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected (MenuItem item) {
         switch (item.getItemId()) {
             case R.id.optionInscription:
-                Toast.makeText(this, R.string.consigneAjoutLogement,
-                        Toast.LENGTH_SHORT).show();
-                Intent intentAjoutLogement = new Intent(getApplicationContext(), AjoutLogement.class);
-                startActivity(intentAjoutLogement);
+                inscription();
                 return true;
-
+            case R.id.optionListe:
+                liste();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
 
         }
     }
+
+    private void inscription(){
+        Toast.makeText(this, R.string.consigneAjoutLogement,
+                Toast.LENGTH_SHORT).show();
+        Intent intentAjoutLogement = new Intent(getApplicationContext(), AjoutLogement.class);
+        startActivity(intentAjoutLogement);
+    }
+
+    private void liste(){
+        Intent intentListe = new Intent(getApplicationContext(), ListeAnnonces.class);
+        startActivity(intentListe);
+    }
+
 }

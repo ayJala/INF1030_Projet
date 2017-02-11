@@ -20,6 +20,7 @@ public class AjoutLogement extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.inscription_logement);
+
         final Activity act = this;
         act.setTitle(R.string.ajoutLogement);
 
