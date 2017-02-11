@@ -21,4 +21,9 @@
     <string name="publier">Publier</string>
     <string name="effacer">Effacer</string>
     <string name="enregistrer">Enregistrer</string>
+
+    <string name="ajoutLogement">Inscription de logement</string>
+    <string name="consigneAjoutLogement">Veuillez inscrire les informations sur le logement</string>
+    <string name="title_activity_ajout_logement">Inscription logement</string>
+
 </resources>

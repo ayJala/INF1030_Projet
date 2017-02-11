@@ -267,7 +267,7 @@
             />
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:inputType="date"
             android:id="@+id/editTextDateDisponible" />
@@ -305,7 +305,7 @@
 
 
         <CheckBox
-            android:text=""
+            android:text="@string/publier"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.35"
